@@ -1,0 +1,6 @@
+bronze_layer:
+  path_to_save: './data/bronze'
+  end_points:
+    - drivers
+    - meetings
+    - sessions
