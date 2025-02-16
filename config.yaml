@@ -1,6 +1,32 @@
 bronze_layer:
   path_to_save: './data/bronze'
   end_points:
-    - drivers
-    - meetings
-    - sessions
+    full_load:
+      - drivers
+      - meetings
+      - sessions
+    incremental:
+      car_data:
+        query: "" 
+      drivers:
+        query: "" 
+      laps:
+        query: "" 
+      location:
+        query: "" 
+      meetings:
+        query: "" 
+      pit:
+        query: "" 
+      position:
+        query: "" 
+      race_control:
+        query: "" 
+      sessions:
+        query: "" 
+      stints:
+        query: "" 
+      team_radio:
+        query: "" 
+      weather:
+        query: "" 
